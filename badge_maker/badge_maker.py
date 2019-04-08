@@ -83,6 +83,10 @@ if __name__ == '__main__':
 
     If there are more fields in the excel table than the template has fields, multiple output files will be generated
 
+    example usage:
+        python badge_maker.py --excel-file example_table.xlsx --template-svg template_grid.svg
+
+
     Note: excel file values must not contain & characters or other characters that need to be escaped.
     """
     parser = argparse.ArgumentParser(epilog=epilog)
